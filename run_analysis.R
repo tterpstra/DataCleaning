@@ -27,4 +27,4 @@ newcolnames <- paste("MEAN_", curcolnames, sep="")
 newcolnames <- c("Subject", "Activity", newcolnames)
 colnames(results) <- newcolnames
 ## Output file
-write.csv(results, "results.csv", row.names=FALSE)
+write.csv(results, "results.txt", row.names=FALSE)
